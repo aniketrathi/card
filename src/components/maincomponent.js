@@ -43,7 +43,7 @@ export default function Main(props){
 
     useEffect(() => {
         randomimg();
-    },[Cards]);
+    },[]);
 
     const list = Images.map((imgs) => {
         return(
