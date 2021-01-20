@@ -47,7 +47,7 @@ export default function Main(props){
 
     const list = Images.map((imgs) => {
         return(
-            <div key={imgs.id} className="col-md-4">
+            <div key={imgs.id} className="col-4">
                 <Card>
                     <CardImg id={imgs.id} onClick={(event) => randomclick(event)} src={`/card/${imgs.image}`} className="look"></CardImg>
                 </Card>
